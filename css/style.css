@@ -1,0 +1,389 @@
+/*removing default margin, adding font, and reducing font boldness*/
+* {
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+/*styling parent div*/
+#main {
+    margin: 190px 0px  0px 320px;
+    color: white;
+}
+
+/*styling head*/
+#head {
+    font-size: 70%;
+    margin-left: 130px;
+    padding-top: 8px;
+}
+
+/*this is the deal...*/
+#real {
+    margin-top: 200px;
+}
+
+/*styling the link*/
+#real a {
+    border-radius: 50px;
+    border: 2px solid #4CAF50;
+    padding: 10px 50px;
+    background-color: #4CAF50;
+    color: white;
+    margin-left: 270px;
+    font-weight: 700;
+    font-size: 80%;
+    text-decoration: none;
+}
+
+/*advance linking,
+making it a button,
+it wil become darker when mouse hovers,
+what! is it not too dark?*/
+#real a:hover {
+    border-radius: 50px;
+    border: 2px solid rgb(65, 151, 68);
+    padding: 10px 50px;
+    background-color: rgb(65, 151, 68);
+    color: white;
+    margin-left: 270px;
+    font-weight: 700;
+    font-size: 80%;
+    text-decoration: none;
+}
+/*making page responsive,
+men! not an easy something o,
+i wish it could be easier,
+maybe with bootstrp sha*/
+/*#BIGGEST STREES OF DA DAY*/
+@media screen and (max-width: 1300px) {
+    
+    #main {
+        margin:200px 0px  0px 260px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        margin-left: 130px;
+        padding-top: 8px;
+    }
+
+    
+    #real {
+        margin-top: 180px;
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 10px 50px;
+        background-color: #4CAF50;
+        color: white;
+        margin-left: 270px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    #main {
+        margin:200px 0px  0px 220px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        margin-left: 130px;
+        padding-top: 8px;
+    }
+
+    
+    #real {
+        margin-top: 170px;
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 10px 50px;
+        background-color: #4CAF50;
+        color: white;
+        margin-left: 270px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    
+    #main {
+        margin:210px 0px  0px 180px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        margin-left: 130px;
+        padding-top: 8px;
+    }
+
+    
+    #real {
+        margin-top: 150px;
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 8px 40px;
+        background-color: #4CAF50;
+        color: white;
+        margin-left: 270px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    #main {
+        margin:210px 0px  0px 140px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        margin-left: 130px;
+        padding-top: 8px;
+    }
+
+    
+    #real {
+        margin-top: 150px;
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 8px 35px;
+        background-color: #4CAF50;
+        color: white;
+        margin-left: 270px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    #main {
+        margin:210px 0px  0px 100px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        margin-left: 130px;
+        padding-top: 8px;
+    }
+
+    
+    #real {
+        margin-top: 150px;
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 8px 35px;
+        background-color: #4CAF50;
+        color: white;
+        margin-left: 270px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    #main {
+        margin:210px 0px  0px 50px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        margin-left: 110px;
+        padding-top: 8px;
+    }
+
+    
+    #real {
+        margin-top: 150px;
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 8px 35px;
+        background-color: #4CAF50;
+        color: white;
+        margin-left: 250px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    #main {
+        margin:210px 0px  0px 10px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        margin-left: 70px;
+        padding-top: 8px;
+    }
+
+    
+    #real {
+        margin-top: 150px;
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 8px 35px;
+        background-color: #4CAF50;
+        color: white;
+        margin-left: 250px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    #main {
+        margin:210px 0px  0px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    
+    #real {
+        margin-top: 150px;
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 8px 35px;
+        background-color: #4CAF50;
+        color: white;
+        font-weight: 700;
+        margin-left: 220px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    
+    #main {
+        margin:190px 0px  0px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        padding-top: 8px;
+    }
+
+    
+    #real {
+        margin-top: 150px;
+        
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 8px 35px;
+        background-color: #4CAF50;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    
+    #main {
+        margin:190px 0px  0px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        padding-top: 8px;
+    }
+
+    
+    #real {
+        margin-top: 150px;
+        
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 8px 35px;
+        background-color: #4CAF50;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+    #main {
+        margin:170px 0px  0px;
+        color: white;
+    }
+
+    #head {
+        font-size: 70%;
+        padding-top: 8px;
+        margin-right: 50px;
+    }
+
+    
+    #real {
+        margin-top: 140px;
+        
+    }
+
+    #real a {
+        border-radius: 50px;
+        border: 2px solid #4CAF50;
+        padding: 8px 35px;
+        background-color: #4CAF50;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        margin-left: 80px;
+    }
+}
+/*end of styling*/

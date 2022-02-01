@@ -1,0 +1,137 @@
+/*removing default margin, adding font, and reducing font boldness*/
+* {
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+/*if i don't do this, it will be
+white by default*/
+body {
+    background-color: lightgray;
+}
+
+#main {
+    margin:80px 380px;
+    color: black;
+;
+}
+
+#head h1 {
+    font-weight: 700;
+}
+
+#real {
+    margin: 30px 60px 0px 0px;
+    background-color: white;
+    height: 400px;
+    border-radius: 3px;
+}
+
+form {
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    border: 2px solid blue;
+}
+
+input[type="submit"] {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 25px;
+
+}
+
+input[type="button"]:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(26, 25, 25);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 25px;
+
+}
+
+/*making page responsive,
+men! not an easy something o,
+i wish it could be easier,
+maybe with bootstrp sha*/
+@media screen and (max-width: 1300px) {
+    
+    #main {
+        margin: 80px 390px;
+    }
+
+    #real {
+        margin: 30px 0px 0px 0px;
+        background-color: white;
+        height: 400px;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    #main {
+        margin: 80px 320px;
+    }
+
+    #real {
+        margin: 30px 0px 0px 0px;
+        background-color: white;
+        height: 400px;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    #main {
+        margin: 80px 250px;
+    }
+
+    #real {
+        margin: 30px 0px 0px 0px;
+        background-color: white;
+        height: 400px;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    #main {
+        margin: 80px 120px;
+    }
+
+    #real {
+        margin: 30px 0px 0px 0px;
+        background-color: white;
+        height: 400px;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    #main {
+        margin: 80px 0px;
+    }
+
+    #real {
+        margin: 30px 0px 0px 0px;
+        background-color: white;
+        height: 400px;
+        border-radius: 3px;
+    }
+}
+/*end of styling*/
