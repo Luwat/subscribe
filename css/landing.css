@@ -41,7 +41,7 @@ input[type="text"] {
     border: 2px solid blue;
 }
 
-input[type="submit"] {
+input[type="submit"], button, a {
     color: white;
     text-decoration: none;
     background-color: black;
